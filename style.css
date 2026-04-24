@@ -43,7 +43,7 @@ a:hover{color: var(--green);text-decoration: none}
 
 .section-title{font-size: 30px;color: var(--dark-red);}
 
-.about-wrap{padding: 80px 0;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+.about-wrap{padding: 80px 0;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;}
 img.about-img{width: 100%;border-radius: 55% 15%;}
 
 .wines-wrap{padding: 80px 0;}
