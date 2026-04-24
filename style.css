@@ -41,7 +41,7 @@ a:hover{color: var(--green);text-decoration: none}
 .header-wrap .logo img{width: 200px;margin: auto;display: block;padding: 40px 0;}
 .header-wrap a.language {float: right;color: #fff;font-size: 18px;}
 
-.section-title{font-size: 30px;color: var(--dark-red);}
+.section-title{font-size: 30px;color: var(--dark-red);line-height: 1.2;text-align: center;}
 
 .about-wrap{padding: 0 0 80px;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;}
 img.about-img{width: 100%;border-radius: 55% 15%;}
@@ -74,9 +74,10 @@ a.menu-items:hover{color: var(--green)}
 
 @media (min-width: 992px) {
     .flex {display: flex;}
+    .t-middle {align-items: center;display: flex;}
+    .section-title{text-align: left;}
     .about-wrap{padding: 80px 0;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;}
     .wine-block {margin: 30px 0;display: flex;}
-    .t-middle {align-items: center;display: flex;}
     img.wine-img{max-width: 100%;padding: 20px;}
     span.wine-title{text-align: left;}
     .footer-info {text-align: left;}
