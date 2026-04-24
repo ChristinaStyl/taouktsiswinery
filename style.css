@@ -76,6 +76,7 @@ a.menu-items:hover{color: var(--green)}
     .flex {display: flex;}
     .t-middle {align-items: center;display: flex;}
     .section-title{text-align: left;}
+    .wines-wrap .section-title{text-align: center;}
     .about-wrap{padding: 80px 0; margin-top: -20px;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;}
     .wine-block {margin: 30px 0;display: flex;}
     img.wine-img{max-width: 100%;padding: 20px;}
